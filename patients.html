@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Same Hospital — Өвчтөнд зориулсан</title>
+  <link rel="stylesheet" href="D:\Dashbaord\Automation\Website for hospital\assets\css\style.css" />
+</head>
+<body>
+  <div class="nav-wrap"><div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>Same Hospital • Эрдэнэт</span></a>
+      <button class="btn ghost mobile-toggle" data-nav-toggle>Цэс</button>
+      <div class="nav-links" data-nav-links>
+        <a href="index.html">Үндсэн</a><a href="about.html">Бидний тухай</a><a href="services.html">Бидний үйлчилгээ</a>
+        <a href="doctors.html">Манай эмч нар</a><a href="blog.html">Блог</a><a href="contact.html">Холбоо барих</a><a href="faq.html">Түгээмэл асуулт</a>
+      </div>
+      <div class="nav-actions"><a class="btn" href="emergency.html">Яаралтай</a><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+    </nav>
+  </div></div>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Өвчтөнд зориулсан</h1>
+      <p>Үзлэгт ирэхэд бэлдэх зүйлс, төлбөр/даатгал, үйлчлүүлэх дараалал.</p>
+    </div>
+
+    <section class="section">
+      <div class="grid cards">
+        <div class="card col-6">
+          <h3>Үзлэгт ирэхийн өмнө</h3>
+          <ul class="list">
+            <li><span class="dot"></span><div><strong>Иргэний үнэмлэх</strong><div class="small">Бүртгэл хийхэд шаардлагатай.</div></div></li>
+            <li><span class="dot"></span><div><strong>Өмнөх шинжилгээ</strong><div class="small">Хариу, зураг, оношийн бичиг баримт.</div></div></li>
+            <li><span class="dot"></span><div><strong>Уудаг эмийн жагсаалт</strong><div class="small">Нэр, тун, давтамж.</div></div></li>
+          </ul>
+        </div>
+        <div class="card col-6">
+          <h3>Үйлчлүүлэх дараалал</h3>
+          <p class="small">1) Бүртгэл → 2) Эмчийн үзлэг → 3) Шинжилгээ (хэрэгтэй бол) → 4) Дүгнэлт/эмчилгээний төлөвлөгөө → 5) Хяналт</p>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn primary" href="appointment.html">Цаг авах</a>
+            <a class="btn" href="contact.html">Асуух зүйл байна</a>
+          </div>
+        </div>
+
+        <div class="card col-12">
+          <h3>Төлбөр / Даатгал</h3>
+          <p class="small">Энд таны бодит нөхцөл (даатгал, төлбөрийн төрөл, байгууллагын гэрээ гэх мэт) мэдээллийг оруулаарай.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">
+    <hr class="sep" />
+    <div class="copy"><div>© <span id="y"></span> Same Hospital.</div><div class="small">Мэдээлэл өөрчлөгдөж болзошгүй.</div></div>
+  </div></footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

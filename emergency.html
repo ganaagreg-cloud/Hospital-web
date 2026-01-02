@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Same Hospital — Яаралтай тусламж</title>
+  <link rel="stylesheet" href="D:\Dashbaord\Automation\Website for hospital\assets\css\style.css" />
+</head>
+<body>
+  <div class="nav-wrap"><div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>Same Hospital • Эрдэнэт</span></a>
+      <button class="btn ghost mobile-toggle" data-nav-toggle>Цэс</button>
+      <div class="nav-links" data-nav-links>
+        <a href="index.html">Үндсэн</a><a href="about.html">Бидний тухай</a><a href="services.html">Бидний үйлчилгээ</a>
+        <a href="doctors.html">Манай эмч нар</a><a href="blog.html">Блог</a><a href="contact.html">Холбоо барих</a><a href="faq.html">Түгээмэл асуулт</a>
+      </div>
+      <div class="nav-actions"><a class="btn" href="emergency.html">Яаралтай</a><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+    </nav>
+  </div></div>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Яаралтай тусламж</h1>
+      <p>Дараах шинж тэмдэг илэрвэл цаг алдалгүй яаралтай тусламжид хандана уу.</p>
+    </div>
+
+    <section class="section">
+      <div class="card">
+        <h3>Яаралтай шинжүүд</h3>
+        <div class="grid cards" style="margin-top:12px;">
+          <div class="card col-4"><h3>Цээжний хүчтэй өвдөлт</h3><p>Амьсгал давчдах, хөлс гарах, ухаан балартахтай хавсарвал.</p></div>
+          <div class="card col-4"><h3>Хүнд гэмтэл/цус алдалт</h3><p>Зогсоох боломжгүй цус алдалт, ухаангүй болох.</p></div>
+          <div class="card col-4"><h3>Гэнэтийн саажилт</h3><p>Нүүр мурийх, хэл ээрэх, гар/хөл мэдээгүй болох.</p></div>
+        </div>
+        <div class="notice" style="margin-top:12px;">
+          <strong>Сануулга:</strong> Энэ хуудас нь мэдээллийн зориулалттай. Яаралтай үед түргэн тусламж/яаралтай тасагт шууд очих буюу шууд залгана уу.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">
+    <hr class="sep" />
+    <div class="copy"><div>© <span id="y"></span> Same Hospital.</div><div class="small">Эрдэнэт • Яаралтай тусламж 24/7</div></div>
+  </div></footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

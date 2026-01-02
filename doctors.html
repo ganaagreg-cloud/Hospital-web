@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Same Hospital — Эмч нар</title>
+  <link rel="stylesheet" href="D:\Dashbaord\Automation\Website for hospital\assets\css\style.css" />
+</head>
+<body>
+  <div class="nav-wrap"><div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>Same Hospital • Эрдэнэт</span></a>
+      <button class="btn ghost mobile-toggle" data-nav-toggle>Цэс</button>
+      <div class="nav-links" data-nav-links>
+        <a href="index.html">Үндсэн</a><a href="about.html">Бидний тухай</a><a href="services.html">Бидний үйлчилгээ</a>
+        <a href="doctors.html">Манай эмч нар</a><a href="blog.html">Блог</a><a href="contact.html">Холбоо барих</a><a href="faq.html">Түгээмэл асуулт</a>
+      </div>
+      <div class="nav-actions"><a class="btn" href="emergency.html">Яаралтай</a><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+    </nav>
+  </div></div>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Манай эмч нар</h1>
+      <p>Доорх нь demo мэдээлэл. Та нэр, мэргэжил, цагийн хуваарь зэргийг бодитоор солиод ашиглаарай.</p>
+    </div>
+
+    <section class="section">
+      <div class="grid cards">
+        <div class="card col-4">
+          <h3>Д. Энхтүвшин</h3>
+          <p>Дотрын эмч • Архаг өвчин • Зүрх судасны эрсдэл</p>
+          <div class="meta">Ажлын цаг: Даваа–Баасан</div>
+          <div style="margin-top:12px;"><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+        </div>
+
+        <div class="card col-4">
+          <h3>Б. Саруул</h3>
+          <p>Хүүхдийн эмч • Халдвар • Харшил</p>
+          <div class="meta">Ажлын цаг: Мягмар–Бямба</div>
+          <div style="margin-top:12px;"><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+        </div>
+
+        <div class="card col-4">
+          <h3>Н. Оюун</h3>
+          <p>Эмэгтэйчүүдийн эмч • Үзлэг • Жирэмсний хяналт</p>
+          <div class="meta">Ажлын цаг: Даваа–Баасан</div>
+          <div style="margin-top:12px;"><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+        </div>
+
+        <div class="card col-6">
+          <h3>Т. Бат-Эрдэнэ</h3>
+          <p>Мэс засал • Зөвлөгөө • Мэс заслын дараах хяналт</p>
+          <div class="meta">Дуудлага: Урьдчилан цаг авна</div>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn primary" href="appointment.html">Цаг авах</a>
+            <a class="btn" href="contact.html">Асуулт асуух</a>
+          </div>
+        </div>
+
+        <div class="card col-6">
+          <h3>Г. Тэмүүлэн</h3>
+          <p>Сэргээн засах • Физик эмчилгээ • Нуруу/үе мөчний өвдөлт</p>
+          <div class="meta">Хөтөлбөр: 2–8 долоо хоног</div>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn primary" href="appointment.html">Үнэлгээ авах</a>
+            <a class="btn" href="patients.html">Өвчтөнд зориулсан</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">
+    <hr class="sep" />
+    <div class="copy"><div>© <span id="y"></span> Same Hospital.</div><div class="small">Эмчийн цагийн хуваарь өөрчлөгдөж болно.</div></div>
+  </div></footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

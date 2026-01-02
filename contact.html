@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Same Hospital — Холбоо барих</title>
+  <link rel="stylesheet" href="D:\Dashbaord\Automation\Website for hospital\assets\css\style.css" />
+</head>
+<body>
+  <div class="nav-wrap"><div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>Same Hospital • Эрдэнэт</span></a>
+      <button class="btn ghost mobile-toggle" data-nav-toggle>Цэс</button>
+      <div class="nav-links" data-nav-links>
+        <a href="index.html">Үндсэн</a><a href="about.html">Бидний тухай</a><a href="services.html">Бидний үйлчилгээ</a>
+        <a href="doctors.html">Манай эмч нар</a><a href="blog.html">Блог</a><a href="contact.html">Холбоо барих</a><a href="faq.html">Түгээмэл асуулт</a>
+      </div>
+      <div class="nav-actions"><a class="btn" href="emergency.html">Яаралтай</a><a class="btn primary" href="appointment.html">Цаг авах</a></div>
+    </nav>
+  </div></div>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Холбоо барих</h1>
+      <p>Асуух зүйлээ үлдээгээрэй. Бид танд богино хугацаанд хариу өгнө.</p>
+    </div>
+
+    <section class="section">
+      <div class="split">
+        <div class="card">
+          <h3>Холбоо барих мэдээлэл</h3>
+          <div class="small" style="display:grid; gap:8px; margin-top:10px;">
+            <div><strong>Хаяг:</strong> Эрдэнэт хот • (Дүүрэг, байрлал)</div>
+            <div><strong>Утас:</strong> (0000-0000)</div>
+            <div><strong>И-мэйл:</strong> info@samehospital.mn</div>
+            <div><strong>Ажлын цаг:</strong> Даваа–Баасан 09:00–18:00</div>
+          </div>
+          <div class="notice" style="margin-top:14px;">
+            <strong>Яаралтай тохиолдол:</strong> Яаралтай тусламж шаардлагатай бол “Яаралтай” хуудсаар орж шууд холбогдоорой.
+          </div>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn primary" href="emergency.html">Яаралтай</a>
+            <a class="btn" href="appointment.html">Цаг авах</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Мессеж илгээх</h3>
+          <form class="form" data-demo>
+            <input class="input" name="name" placeholder="Нэр" required />
+            <input class="input" name="phone" placeholder="Утас" required />
+            <select class="input" name="topic" required>
+              <option value="">Сэдэв сонгох</option>
+              <option>Үзлэгийн цаг</option>
+              <option>Шинжилгээ/хариу</option>
+              <option>Үйлчилгээний мэдээлэл</option>
+              <option>Бусад</option>
+            </select>
+            <textarea name="msg" placeholder="Таны асуулт / мэдээлэл" required></textarea>
+            <button class="btn primary" type="submit">Илгээх</button>
+            <div class="helper">* Энэ бол demo form. Backend холболт нэмбэл бодитоор илгээгдэнэ.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">
+    <hr class="sep" />
+    <div class="copy"><div>© <span id="y"></span> Same Hospital.</div><div class="small">Нууцлалыг хүндэтгэнэ.</div></div>
+  </div></footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
